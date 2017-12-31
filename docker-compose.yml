@@ -7,7 +7,7 @@ services:
     deploy:
       placement:
         constraints:
-          - engine.labels.Architecture == armv6l
+          - engine.labels.architecture == armv6l
       replicas: 4
       resources:
         limits:
