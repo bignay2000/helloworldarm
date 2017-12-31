@@ -5,6 +5,9 @@ services:
     environment:
       WEBPAGESTRING: "This is helloworld on ARM"
     deploy:
+      placement:
+        constraints:
+          - engine.labels.Architecture == armv6l
       replicas: 4
       resources:
         limits:
