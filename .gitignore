@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+*.iml
+*.log
+target/
+.settings
+.project
+.classpath
+/src/main/resources/images/Thumbs.db
