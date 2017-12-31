@@ -1,3 +1,8 @@
+#To Build:     docker build --no-cache=true -t helloworldarm .
+
+#To Run:		docker run --restart=always -d -t --env "WEBPAGESTRING=helloworld" -p 80:8080 --name helloworldarm -h helloworldarm helloworldarm
+
+
 FROM golang:latest
 
 WORKDIR /go/src/helloworldarm/
