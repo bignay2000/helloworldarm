@@ -18,7 +18,9 @@ func handler(w http.ResponseWriter, r *http.Request) {
     if err == nil {
         fmt.Println("hostname:",hostname)
     }
-    fmt.Fprintf(w, webpagestring,hostname)
+    webpagecontents := webpagestring + " " + hostname
+ 
+    fmt.Fprintf(w, webpagecontents)
 
 }
 
