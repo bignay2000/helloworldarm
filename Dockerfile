@@ -9,4 +9,4 @@ MAINTAINER rnaylor@hivetechnologies.net
 COPY ./helloworldlinuxarm .
 
 EXPOSE 8080
-CMD ["/helloworldarm"]
+CMD ["/helloworldlinuxarm"]
